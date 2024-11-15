@@ -1,6 +1,10 @@
+Here is the updated README that you can copy and paste:
+
+---
+
 # Transaction Tracker App
 
-This is a simple transaction tracker app that allows you to manage, display, and remove transactions like income and expenses. It includes features like:
+This is a simple transaction tracker app that allows you to manage, display, and remove transactions like income and expenses. It includes features such as:
 
 - Displaying transaction details with color-coded amounts (green for income and red for expenses).
 - The ability to remove transactions.
@@ -8,9 +12,9 @@ This is a simple transaction tracker app that allows you to manage, display, and
 
 ## Features
 
-- **Transaction Display**: Transactions are displayed with clear labels and formatting, where:
-  - **Income** transactions are shown with a **green** border and `+` sign before the amount.
-  - **Expense** transactions are shown with a **red** border and `-` sign before the amount.
+- **Transaction Display**: Transactions are displayed with clear labels and formatting:
+  - **Income** transactions are shown with a **green** border and a `+` sign before the amount.
+  - **Expense** transactions are shown with a **red** border and a `-` sign before the amount.
   
 - **Transaction Removal**: Each transaction has a "Remove" button that allows the user to delete it.
 
@@ -53,3 +57,46 @@ This component contains a list of all transactions and allows searching/filterin
 
    ```bash
    npm install
+   ```
+
+3. Start the application:
+
+    ```bash
+    npm start
+    ```
+
+4. The app will be running at [http://localhost:3000](http://localhost:3000).
+
+### Example Transaction
+
+```json
+{
+  "id": "1",
+  "details": "Salary",
+  "amount": 50000,
+  "transType": "income"
+}
+```
+
+```json
+{
+  "id": "2",
+  "details": "Groceries",
+  "amount": 2000,
+  "transType": "expense"
+}
+```
+
+## Technologies Used
+
+1. React
+2. Styled-components for styling
+3. JavaScript (ES6+)
+
+---
+
+### Key Additions:
+1. **Description of Features**: Detailed explanation of how the `+` and `-` signs work for income and expense amounts.
+2. **Component Overview**: Describes `TransactionItem` and `TransactionsContainer` components, highlighting their functionality and props.
+3. **How to Use**: Step-by-step instructions to set up and run the app locally.
+4. **Example Transactions**: JSON examples to show how transactions should be structured.
