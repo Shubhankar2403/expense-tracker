@@ -34,7 +34,7 @@ const App = () => {
     <>
       <GlobalStyles />
       <Main>
-        <Header>Expense Tracker</Header>
+        <Header>Expenzey</Header>
         <Tracker />
         <Footer>Designed & Built by Shubhankar</Footer>
       </Main>
