@@ -1,7 +1,3 @@
-Here is the updated README that you can copy and paste:
-
----
-
 # Transaction Tracker App
 
 This is a simple transaction tracker app that allows you to manage, display, and remove transactions like income and expenses. It includes features such as:
